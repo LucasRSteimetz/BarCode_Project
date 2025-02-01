@@ -1,0 +1,19 @@
+How to run the BarCode Generator Project
+
+First, download DOSBox 0.74-3 in the oficial website: https://www.dosbox.com/
+Secondly, move the given file to the WORK directory.
+Thirdly, type the following commands on the DOSBox Terminal:
+
+masm <file_name.asm>
+link <file_name.obj>
+file_name.exe
+
+Remember that you should have a file called "IN.TXT" inside the WORK directory with the following structure:
+
+;example
+START
+123
+456
+STOP
+
+Remember you can have up to 10 numbers in a line. You can also type other characters (eg. letters), and it will give you an error message in the "OUT.BAR" file.
